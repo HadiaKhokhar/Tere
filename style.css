@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Gilory";
+    src: url(Assets/Fonts/gilroy-medium.ttf);
+}
+
+:root{
+    --primary-bg-color : #f9f9f9;
+    ---secondary-bg-color : #fff;
+    --main-color: #75BF7A;
+    ---primary-text-color :#000;
+    ---secondary-text-color : #9e9da2;
+}
+body{
+    background-color: var(--primary-bg-color);
+    font-family: "Gilory";
+}
+a {
+    text-decoration: none;
+}
+.button{
+    color: var(---secondary-bg-color);
+    background-color: var(---primary-text-color);
+    font-size:17px;
+    text-transform: uppercase;
+    padding:8px;  
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+}
+.font-bold{
+    font-weight: bolder;
+}
+
+/* ----- Header ----- */
+
+
+/* ----- Navbar ----- */
+.navbar{
+    font-size: 17px;
+}
+.nav-link{
+    color: var(---primary-text-color) ;
+}
+.nav-link:hover{
+    color: var(--main-color) ;
+}
+.navbar .button{
+    background-color: var(--main-color);
+    text-transform: capitalize;
+}
+.navbar-collapse{
+    position: absolute;
+    top: 130px;
+    background-color: var(---secondary-bg-color);
+    border-radius:6px; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----Breakpoints ---- */
+@media (min-width: 576px) { 
+}
+
+@media (min-width: 768px) { 
+ }
+@media (min-width: 992px) { 
+    .button{
+        font-size:20px;
+    }
+    .navbar-collapse{
+        position: static;
+        top: 0;
+        background-color: inherit;
+        border-radius:0; 
+        box-shadow:none;
+    }
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1400px) {   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
