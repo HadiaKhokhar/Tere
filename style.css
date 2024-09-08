@@ -50,10 +50,10 @@ h6.main-heading{
     line-height: 28px;
     text-align: center;
 }
+
 span.paragraph{
     font-size: 12px;
     line-height: normal;
-
 }
 .button{
     color: var(---secondary-bg-color);
@@ -71,7 +71,6 @@ span.paragraph{
     width: 100%;
     letter-spacing: 1px;
 }
-
 .font-bold{
     font-weight: bolder;
 }
@@ -131,14 +130,14 @@ main>div{
 }
 /* ----- Work section -----   */
 #circle{
-    width:300px;
-    height:300px;
+    width:250px;
+    height:250px;
     border-radius: 50%;
     background-color: var(--main-color);
 }
 
 #circle~img{
-    width: 60%;
+    width: 55%;
 }
 .dot {
     height: 11px;
@@ -146,7 +145,7 @@ main>div{
     background-color:var(--main-color);
     border-radius: 50%;
 }
-/* Benfits Section */
+/* -----  Benfits Section  ----- */
 #card-section{
     row-gap: 60px;
 }
@@ -164,9 +163,39 @@ main>div{
     font-size:50px;
     font-weight: normal;
 }
+/* -----  Footer  ----- */
+footer{
+    background-color: var(---secondary-bg-color);
+    padding-block:70px;
+}
+footer p.paragraph{
+ color: var(---primary-text-color);
+ text-align: left !important;
+}
+
+
+footer>div.f-border{
+    border: 0.1px solid var(--primary-bg-color) ;
+    margin-inline: -12px;
+}
+footer .button{
+    font-size: 15px;
+    padding: 10px;
+}
 
 
 /* ----Breakpoints ---- */
+@media (min-width: 320px){
+    #circle{
+    width:300px;
+    height:300px;
+    }
+    #circle~img{
+        width: 51%;
+    }
+
+  
+}
 
 @media (min-width: 576px) { 
 
@@ -184,7 +213,7 @@ main>div{
         height:400px
     }
     #circle~img{
-        width: 55%;
+        width: 52%;
     }
     span.paragraph{
         font-size: 18px;
@@ -195,7 +224,6 @@ main>div{
         padding: 40px;
     }
 }
-
 @media (min-width: 768px) {
     main>div{
         gap: 110px;
