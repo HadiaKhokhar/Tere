@@ -4,7 +4,7 @@
   <a href="[https://github.com/othneildrew/Best-README-Template](https://github.com/HadiaKhokhar/Tere)">
     <img src="Assets/Icons/favicon.png" alt="Logo" width="90" height="90">
   </a>
-  <h1 align="center"></h1>
+  <h1 align="center">Tere</h1>
 </div>
 
 
